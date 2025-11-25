@@ -18,23 +18,23 @@ This is a **real-time earthquake dashboard** built with **Python**, **Streamlit*
 ```bash
 git clone https://github.com/<your-username>/earthquake-dashboard.git
 cd earthquake-dashboard
-Create a virtual environment (optional but recommended)
 ```
+2. **Create a virtual environment (optional but recommended)**
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
-Install dependencies
 ```
+3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
-Running the Dashboard
 ```
-
+4. **Running the Dashboard**
 ```bash
 streamlit run earthquake_dashboard.py
-Open the link in your browser (usually http://localhost:8501).
 ```
+Open the link in your browser (usually http://localhost:8501).
+
 Configuration
 Sidebar Controls:
 Minimum magnitude filter
