@@ -21,33 +21,26 @@ cd earthquake-dashboard
 Create a virtual environment (optional but recommended)
 ```
 ```bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 Install dependencies
 ```
 ```bash
-Copy code
 pip install -r requirements.txt
 Running the Dashboard
 ```
 
 ```bash
-Copy code
 streamlit run earthquake_dashboard.py
 Open the link in your browser (usually http://localhost:8501).
 ```
 Configuration
 Sidebar Controls:
-
 Minimum magnitude filter
-
 Show only significant quakes (>=4.0)
-
 Auto-refresh toggle + interval (seconds)
-
 Number of hours/days for trend analysis
 
-Data Source
-USGS Earthquake GeoJSON Feeds
+Data Source:
+_USGS Earthquake GeoJSON Feeds_
